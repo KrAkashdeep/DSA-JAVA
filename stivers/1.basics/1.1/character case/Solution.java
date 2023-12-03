@@ -3,6 +3,7 @@
  * 
  * 1  ->>>if character is in uppercase (A-Z) 
  * 0  ->>>if character is in lowercase (a-z) 
+ * -1  ->>>if character is not an alphabet 
  * 
  *  */
 
