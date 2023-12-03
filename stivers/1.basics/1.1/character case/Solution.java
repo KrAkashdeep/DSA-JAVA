@@ -1,3 +1,11 @@
+/*
+ * write a program that takes a character  as input and prints 1,0,-1 according to following list
+ * 
+ * 1  ->>>if character is in uppercase (A-Z) 
+ * 0  ->>>if character is in lowercase (a-z) 
+ * 
+ *  */
+
 import java.util.Scanner;
 
 public class Solution {
