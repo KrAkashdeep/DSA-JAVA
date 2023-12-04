@@ -24,5 +24,3 @@ public class solution {
         sc.close(); // Write your code here
     }
 }
-
-// NOT COMPLETED
