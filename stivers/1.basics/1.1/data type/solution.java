@@ -3,13 +3,13 @@ import java.util.Scanner;
 public class solution {
     public static int dataTypes(String type) {
 
-        if (type == "Integer")
+        if (type.equals("Integer"))
             return 4;
-        else if (type == "Long")
+        else if (type.equals("Long"))
             return 8;
-        else if (type == "Float")
+        else if (type.equals("Float"))
             return 4;
-        else if (type == "Double")
+        else if (type.equals("Double"))
             return 8;
         else
             return 1;
@@ -19,7 +19,7 @@ public class solution {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String s = sc.next();
-        System.out.println(dataTypes(s) + " Bytes");
+        System.out.println(dataTypes(s));
 
         sc.close(); // Write your code here
     }

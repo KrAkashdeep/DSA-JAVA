@@ -24,6 +24,6 @@ public class Solution {
             System.out.println(areaSwitchCase(ch, a));
         if (ch == 2)
             System.out.println(areaSwitchCase(ch, a));
-
+        sc.close();
     }
 }
