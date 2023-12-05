@@ -1,3 +1,16 @@
+/*
+ * 
+ * 
+ * ------->>>>>>>* * * * *
+ * ------->>>>>>>* * * * *
+ * ------->>>>>>>* * * * *
+ * ------->>>>>>>* * * * *
+ * ------->>>>>>>* * * * *
+ * 
+ * 
+ * 
+ */
+
 import java.util.Scanner;
 
 public class solution1 {
@@ -15,6 +28,7 @@ public class solution1 {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         nForest(n);
+        sc.close();
 
     }
 
