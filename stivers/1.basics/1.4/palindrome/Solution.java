@@ -2,7 +2,8 @@ import java.util.Scanner;
 
 public class Solution {
     public static boolean palindromeNumber(int n) {
-        // Write your code here.
+        // TO REVERSE THE NUMBER LOGIC IS SAME
+
         int a = n;
         int b = 0;
         while (n != 0) {
