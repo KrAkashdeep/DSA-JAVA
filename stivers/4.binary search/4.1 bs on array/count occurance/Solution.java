@@ -10,3 +10,5 @@ public class Solution {
         return a;
     }
 }
+
+// PARTIALLY ACCEPTED
