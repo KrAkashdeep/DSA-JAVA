@@ -1,3 +1,5 @@
+#include <vector>
+#include <iostream>
 int singleNonDuplicate(vector<int> &arr)
 {
     // Write your code here
@@ -16,4 +18,7 @@ int singleNonDuplicate(vector<int> &arr)
             return arr[i];
         }
     }
+}
+int main()
+{
 }
